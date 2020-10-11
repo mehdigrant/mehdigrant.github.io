@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-
+<img id="aliImg">
 <div id="container">
 
     <div id="trialsleft">
@@ -39,7 +39,7 @@
     </div>
     <div id="forAli">
         <button id="Ali1">Click here Ali:)</button>
-        <img id="aliImg">
+        
     </div>
 </div>
 <audio id="lighterSound">
@@ -160,6 +160,10 @@ function stopAction(){
 $("#Ali1").click(function(){
     $("#aliImg").attr("src","img/ali.jpg");
 
+})
+
+$("#aliImg").click(function(){
+    $(this).fadeOut();
 })
 
 });
