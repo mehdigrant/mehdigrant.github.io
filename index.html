@@ -37,6 +37,10 @@
         <p>your score is <span id="scoreplace">0</span></p>
         
     </div>
+    <div id="forAli">
+        <button id="Ali1">Click here Ali:)</button>
+        <img id="aliImg">
+    </div>
 </div>
 <audio id="lighterSound">
     <source src="lighter.mp3"></source>
@@ -153,6 +157,11 @@ function stopAction(){
 
 
 ///////////////////
+$("#Ali1").click(function(){
+    $("#aliImg").attr("src","img/ali.jpg");
+
+})
+
 });
 
 

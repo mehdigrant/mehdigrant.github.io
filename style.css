@@ -190,3 +190,10 @@ html{
     position: absolute;
     
 }
+
+#aliImg{
+    position: absolute;
+    margin: 0 auto ;
+    left: 0;
+    top: 0;
+}
