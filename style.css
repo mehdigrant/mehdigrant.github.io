@@ -196,4 +196,17 @@ html{
     margin: 0 auto ;
     left: 0;
     top: 0;
+    height: 750px;
+    width: 790px;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 31px -9px rgba(201,26,201,1);
+    -moz-box-shadow: 10px 10px 31px -9px rgba(201,26,201,1);
+    box-shadow: 10px 10px 31px -9px rgba(201,26,201,1);
+}
+
+#Ali1{
+    background: linear-gradient(#F3CA6B, #F3706C);
+    border-radius:10px;
+    border: none;
 }
